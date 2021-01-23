@@ -8,7 +8,12 @@ namespace OOP1
     {
         publc void Add(Product product)
         {
+            Console.WriteLine(product.ProductName + "eklendi.");
+        }
 
+        publc void Update(Product product)
+        {
+            Console.WriteLine(product.ProductName + "güncellendi.");
         }
     }
 }
